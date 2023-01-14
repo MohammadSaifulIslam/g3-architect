@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* common css end */
+/* navbar part start  */
+header {
+    padding: 50px 200px 45px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.menu-item ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu-item ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* navbar part end  */
+/* bannar part start  */
+.bannar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bannar-text h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.bannar-text p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 15px 0 50px;
+}
+
+.primary-btn {
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: 1px solid #FF900E;
+    transition: all linear .3s;
+}
+.primary-btn:hover{
+    color: #FF900E;
+    background: #ffffff;
+    border: 1px solid #FF900E;
+}
+.bannar-img {
+    margin-top: 90px;
+}
+.bannar-img img{
+    width: 100%;
+}
+
+/* bannar part end  */
+
+
+
+/* navbar part start  */
+/* navbar part end  */
+/* navbar part start  */
+/* navbar part end  */
+/* navbar part start  */
+/* navbar part end  */
+/* navbar part start  */
+/* navbar part end  */
+/* navbar part start  */
+/* navbar part end  */
