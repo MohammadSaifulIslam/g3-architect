@@ -76,24 +76,73 @@ nav {
     border: 1px solid #FF900E;
     transition: all linear .3s;
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     color: #FF900E;
     background: #ffffff;
     border: 1px solid #FF900E;
 }
+
 .bannar-img {
     margin-top: 90px;
 }
-.bannar-img img{
+
+.bannar-img img {
     width: 100%;
 }
 
 /* bannar part end  */
+/* team part start  */
+main {
+    margin: 0 200px;
+}
 
+.team-person {
+    margin: 87px 0 130px;
+}
 
+.team-person .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 73px;
+    align-items: center;
+}
 
-/* navbar part start  */
-/* navbar part end  */
+.person-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.person-img img {
+    width: 100%;
+}
+
+.team-info h2 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.team-info h2 .color-black {
+    color: #131313;
+    font-weight: 700;
+}
+
+.team-info h2 .color-other {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.team-info p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin: 10px 0 30px;
+}
+
+/* team part end  */
 /* navbar part start  */
 /* navbar part end  */
 /* navbar part start  */
