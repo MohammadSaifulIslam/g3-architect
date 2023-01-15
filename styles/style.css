@@ -509,12 +509,13 @@ footer h6 {
     }
 
     .team-person .container,
-    .feature .container,
-    .work .container {
+    .feature .container{
         grid-template-columns: repeat(1, 1fr);
 
     }
-
+    .work .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .team-info {
         grid-row: 1;
     }
