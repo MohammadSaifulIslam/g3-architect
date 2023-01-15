@@ -171,10 +171,12 @@ main {
     border-left: 2px solid #FF900E;
     padding-left: 10px;
 }
-
-.feature-title p {
+.common-descript{
     font-size: 16px;
     color: #727272;
+}
+.feature-title p {
+
     margin: 20px 0 30px;
 }
 
@@ -214,9 +216,99 @@ main {
     font-size: 25px;
 }
 /* feature part end  */
-/* navbar part start  */
-/* navbar part end  */
-/* navbar part start  */
-/* navbar part end  */
-/* navbar part start  */
-/* navbar part end  */
+/* fact part start  */
+.fact{
+    margin-bottom: 150px;
+}
+.section-title p{
+    margin-top: 5px;
+}
+.fact .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.fact-item{
+    padding: 35px 25px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    transition: all linear .3s;
+}
+.fact-item:hover{
+    background-color: #FF900E;
+    transform: scale(1.1);
+    
+}
+.fact-item:hover h4 {
+    color: #ffffff;
+}
+.fact-item:hover h6{
+    color: #ffffff;
+}
+.fact-item h4{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.fact-item h6{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+/* fact part end  */
+/* work part start  */
+.work{
+    margin-bottom: 130px;
+    text-align: center;
+}
+.work .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+    grid-row-gap: 20px;
+}
+.work-item{
+    transition: all linear .3s;
+}
+.work-item:hover{
+    transform: scale(1.1);
+}
+.work-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* work part end  */
+/* sponsor part start  */
+.sponsor{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.sponsor .container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    margin-top: 50px;
+}
+.sponsor-item img{
+    width: 100%;
+}
+/* sponsor part end  */
+/* footer part start  */
+footer{
+    margin: 0 200px 100px;
+    background: #FFF4E7;
+border-radius: 8px;
+padding: 40px 0;
+text-align: center;
+}
+footer h6{
+    font-weight: 400;
+font-size: 20px;
+color: #424242;
+}
+/* footer part end  */
