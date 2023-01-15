@@ -360,7 +360,7 @@ footer h6 {
     .fact,
     .work,
     .sponsor {
-        margin-bottom: 50px;
+        margin-bottom: 70px;
     }
 
     .section-title,
@@ -398,19 +398,11 @@ footer h6 {
 
     .team-person .container,
     .feature .container,
-    .work .container {
+    .work .container ,
+    .person-img{
         grid-template-columns: repeat(1, 1fr);
 
     }
-
-    .team-info {
-        grid-row: 1;
-    }
-
-    .person-img {
-        grid-row: 2;
-    }
-
     .common-title {
         font-size: 30px;
     }
@@ -474,7 +466,13 @@ footer h6 {
         padding-left: 100px;
         padding-right: 100px;
     }
-
+    .team-person,
+    .feature,
+    .fact,
+    .work,
+    .sponsor {
+        margin-bottom: 100px;
+    }
     nav,
     .menu-item ul {
         flex-direction: column;
@@ -516,14 +514,6 @@ footer h6 {
     .work .container {
         grid-template-columns: repeat(2, 1fr);
     }
-    .team-info {
-        grid-row: 1;
-    }
-
-    .person-img {
-        grid-row: 2;
-    }
-
     .feature-btn {
         padding: 15px 25px;
         font-size: 40px;
