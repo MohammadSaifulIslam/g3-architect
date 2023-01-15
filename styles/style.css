@@ -154,9 +154,10 @@ main {
     gap: 146px;
 }
 
-.feature-img{
+.feature-img {
     position: relative;
 }
+
 .feature-img img {
     width: 100%;
 }
@@ -171,10 +172,18 @@ main {
     border-left: 2px solid #FF900E;
     padding-left: 10px;
 }
-.common-descript{
+
+.common-descript {
     font-size: 16px;
     color: #727272;
+
 }
+
+.section-title {
+    width: 540px;
+    margin: 0 auto;
+}
+
 .feature-title p {
 
     margin: 20px 0 30px;
@@ -210,60 +219,78 @@ main {
     left: -70px;
     bottom: 25px;
 }
+
 .feature-btn span {
     display: block;
     font-weight: 500;
     font-size: 25px;
 }
+
 /* feature part end  */
 /* fact part start  */
-.fact{
+.fact {
     margin-bottom: 150px;
 }
-.section-title p{
+
+.fact .section-title {
+    text-align: left;
+    width: 540px;
+    margin: 0;
+}
+
+.section-title p {
     margin-top: 5px;
 }
-.fact .container{
+
+.fact .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 25px;
     justify-content: space-between;
     margin-top: 50px;
 }
-.fact-item{
+
+.fact-item {
     padding: 35px 25px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
     transition: all linear .3s;
 }
-.fact-item:hover{
+
+.fact-item:hover {
     background-color: #FF900E;
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
+
 .fact-item:hover h4 {
     color: #ffffff;
 }
-.fact-item:hover h6{
+
+.fact-item:hover h6 {
     color: #ffffff;
 }
-.fact-item h4{
+
+.fact-item h4 {
     font-weight: 600;
     font-size: 45px;
     color: #424242;
 }
-.fact-item h6{
+
+.fact-item h6 {
     font-weight: 600;
-font-size: 20px;
-color: #727272;
+    font-size: 20px;
+    color: #727272;
 }
+
 /* fact part end  */
 /* work part start  */
-.work{
+.work {
     margin-bottom: 130px;
     text-align: center;
 }
-.work .container{
+
+.work .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
@@ -271,128 +298,269 @@ color: #727272;
     gap: 20px;
     grid-row-gap: 20px;
 }
-.work-item{
+
+.work-item {
     transition: all linear .3s;
 }
-.work-item:hover{
+
+.work-item:hover {
     transform: scale(1.1);
 }
-.work-item img{
+
+.work-item img {
     width: 100%;
     border-radius: 10px;
 }
+
 /* work part end  */
 /* sponsor part start  */
-.sponsor{
+.sponsor {
     text-align: center;
     margin-bottom: 130px;
 }
-.sponsor .container{
+
+.sponsor .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 100px;
     margin-top: 50px;
 }
-.sponsor-item img{
+
+.sponsor-item img {
     width: 100%;
 }
+
 /* sponsor part end  */
 /* footer part start  */
-footer{
+footer {
     margin: 0 200px 100px;
     background: #FFF4E7;
-border-radius: 8px;
-padding: 40px 0;
-text-align: center;
+    border-radius: 8px;
+    padding: 40px 0;
+    text-align: center;
 }
-footer h6{
+
+footer h6 {
     font-weight: 400;
-font-size: 20px;
-color: #424242;
+    font-size: 20px;
+    color: #424242;
 }
+
 /* footer part end  */
 /* responsive part start  */
 /* mobile view */
 @media only screen and (max-width:576px) {
-    header{
-        padding-right:  20px;
-        padding-left:  20px;
+    header {
+        padding-right: 20px;
+        padding-left: 20px;
     }
-    .team-person , .feature , .fact, .work, .sponsor {
+
+    .team-person,
+    .feature,
+    .fact,
+    .work,
+    .sponsor {
         margin-bottom: 50px;
     }
-    nav, .menu-item ul {
+
+    .section-title,
+    .fact .section-title {
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav,
+    .menu-item ul {
         flex-direction: column;
         text-align: center;
     }
+
     .menu-item ul {
         margin-top: 20px;
         gap: 18px;
     }
-    .bannar-text h1 ,.logo h3, .team-info h2  {
+
+    .bannar-text h1,
+    .logo h3,
+    .team-info h2 {
         font-size: 32px;
     }
-    main{
+
+    main {
         margin: 0 20px;
         text-align: center;
     }
+
     .team-person {
         text-align: center;
     }
-    .team-person .container , .feature .container , .work .container{
+
+    .team-person .container,
+    .feature .container,
+    .work .container {
         grid-template-columns: repeat(1, 1fr);
-        
-    }
-    .team-info{
-        grid-row:1 ;
-    }
-    .person-img{
-        grid-row: 2;
-    }
-    .common-title{
-        font-size: 30px;
-    }
-    .common-descript{
 
     }
-    .feature .container{
+
+    .team-info {
+        grid-row: 1;
+    }
+
+    .person-img {
+        grid-row: 2;
+    }
+
+    .common-title {
+        font-size: 30px;
+    }
+
+    .feature .container {
         gap: 60px;
     }
+
     .feature-btn {
         padding: 15px 25px;
         font-size: 40px;
         position: unset;
         margin-top: 20px;
     }
-    .feature-title h4{
+
+    .feature-title h4 {
         border: none;
         padding: 10px;
     }
-    .fact .container{
+
+    .fact .container {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-    .fact-item:hover{
-        transform: scale(1.05); 
+
+    .fact-item:hover {
+        transform: scale(1.05);
     }
+
     .fact-item h4 {
         font-size: 30px;
     }
+
     .fact-item h6 {
         font-size: 18px;
     }
-    .sponsor .container{
+
+    .sponsor .container {
         grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
-        align-items: center;
         gap: 40px;
         grid-row-gap: 20px;
     }
-    .work-item:hover{
+
+    .work-item:hover {
         transform: scale(1.05);
     }
-    footer{
+
+    footer {
         margin: 0 0 50px;
+        padding: 40px 20px;
+    }
+
+    footer h6 {
+        font-size: 15px;
     }
 }
+
+/* tablet view */
+@media only screen and (min-width:577px) and (max-width:992px) {
+    header {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    nav,
+    .menu-item ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item ul {
+        margin-top: 20px;
+        gap: 18px;
+    }
+
+    .bannar-text h1,
+    .logo h3,
+    .team-info h2 {
+        font-size: 35px;
+    }
+
+    .section-title,
+    .fact .section-title {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .common-title {
+        font-size: 35px;
+    }
+
+    main {
+        margin: 0 100px;
+        text-align: center;
+    }
+
+    .team-person .container,
+    .feature .container,
+    .work .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .team-info {
+        grid-row: 1;
+    }
+
+    .person-img {
+        grid-row: 2;
+    }
+
+    .feature-btn {
+        padding: 15px 25px;
+        font-size: 40px;
+        position: unset;
+        margin-top: 20px;
+    }
+
+    .fact .container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .fact-item:hover {
+        transform: scale(1.08);
+    }
+
+    .fact-item h4 {
+        font-size: 35px;
+    }
+
+    .fact-item h6 {
+        font-size: 20px;
+    }
+
+    .sponsor .container {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
+        grid-row-gap: 20px;
+    }
+
+    footer {
+        margin: 0;
+        padding: 40px 100px;
+    }
+
+    footer h6 {
+        font-size: 18px;
+    }
+}
+
 /* responsive part end  */
